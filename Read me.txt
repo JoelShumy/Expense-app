@@ -1,0 +1,6 @@
+3 inputs 
+Nom / Date / Montant
+
+Bouton ajouter dépense
+
+tableau de 3 colonnes : Nom / Date / Montant
