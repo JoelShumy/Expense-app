@@ -11,24 +11,28 @@
 <body>
 
     <form>
-        <input type="text" name="amount_name" id="nameAmount">
-        <input type="date" name="date" id="dateAmount">
-        <input type="number" name="amount" id="amount_to_ad">
-        <button type="submit" value="Ajouter">Ajouter</button>
+        <input type="text" placeholder="Nom de la dépense" name="amount_name" id="nameAmount">
+        <input type="date" placeholder="Date de la dépense" name="date" id="dateAmount">
+        <input type="number" placeholder="Montant de la dépense" name="amount" id="amount_to_ad">
+        <button id="submit">Ajouter</button>
     </form>
 
-    <table>
+    <table >
         <thead>
-            <td>Nom</td>
-            <td>Date</td>
-            <td>Montant</td>
-        </thead>
-        <tbody>
             <tr>
-                <td>The table body</td>
-                <td>with two columns</td>
+                <th>Nom</th>
+                <th>Date</th>
+                <th>Amount</th>
             </tr>
-        </tbody>
+        </thead>
+        
+        <tbody id="tableResult">
+            <tr>
+                <td>Name expense</td>
+                <td>Date</td>
+                <td>Amount</td>
+            </tr> 
+        </tbody>               
     </table>
     
     <script src="script.js"></script>
